@@ -1,0 +1,32 @@
+{
+    "title": "我的层级图表",
+    "nodes": [
+        {
+            "id": "root",
+            "name": "总部",
+            "description": "这是我们的总部节点，包含所有部门",
+            "image": "https://example.com/headquarters.jpg"
+        },
+        {
+            "id": "dev",
+            "parent": "root",
+            "name": "开发部",
+            "description": "负责产品开发和技术研究",
+            "image": "https://example.com/development.jpg"
+        },
+        {
+            "id": "marketing",
+            "parent": "root",
+            "name": "市场部",
+            "description": "负责品牌推广和市场营销",
+            "image": "https://example.com/marketing.jpg"
+        },
+        {
+            "id": "frontend",
+            "parent": "dev",
+            "name": "前端组",
+            "description": "负责用户界面开发",
+            "image": "https://example.com/frontend.jpg"
+        }
+    ]
+}
